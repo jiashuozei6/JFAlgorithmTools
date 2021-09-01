@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JFAlgorithmTools (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JFAlgorithmTools (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JFAlgorithmTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JFAlgorithmTools: 5fb92bcb73e0f2aee0e51a2b5dac1163c472486f
+
+PODFILE CHECKSUM: a4d3e4904487239a4bc0b72ce36107b554202d9e
+
+COCOAPODS: 1.10.1

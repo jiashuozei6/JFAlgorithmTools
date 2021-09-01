@@ -1,0 +1,6 @@
+framework module JFAlgorithmTools {
+  umbrella header "JFAlgorithmTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

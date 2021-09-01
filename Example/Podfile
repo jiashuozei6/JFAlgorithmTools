@@ -1,0 +1,14 @@
+
+source 'https://github.com/jiashuozei6/PrivateSpecs.git'
+
+platform :ios, '9.0'
+
+target 'JFAlgorithmTools_Example' do
+  pod 'JFAlgorithmTools', :path => '../'
+
+  target 'JFAlgorithmTools_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
